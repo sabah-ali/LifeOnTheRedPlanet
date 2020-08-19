@@ -1,0 +1,161 @@
+
+#main-header {
+    background-image: url(../img/mars\ 2.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height: 800px;
+}
+
+#demo{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 76px;
+    padding-top: 250px;
+    border-bottom: #000 3px solid;
+    
+}
+
+.dark-overlay {
+    background: rgba(0, 0, 0, 0.2);
+    min-height: 800px;
+}
+
+
+.carousel-item{
+    min-height: 400px;
+}
+
+.carousel-image-1 {
+    background: url(../img/Astronaut.jpg);
+    background-size: cover;
+
+}
+
+.carousel-image-2 {
+    background: url(../img/Perseverance.png);
+    background-size: cover;
+   
+
+}
+
+.carousel-image-3 {
+    background: url(../img/spacex-Rocketlaunch.jpg);
+    background-size: cover;
+
+}
+
+#four-goals-header{
+    background: url(../img/orange-background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+
+#four-goals{
+    color: #fff;
+    
+}
+
+.img-1, .img-2, .img-3, .img-4{
+    border-right: #000 3px solid;
+}
+.img-1{
+    background: url(../img/life.jpg);
+    background-size: cover;
+    min-height: 300px;
+    position: relative;
+}
+
+.img-2{
+    background: url(../img/climate.jpg);
+    background-size: cover;
+    min-height: 300px;
+    position: relative;
+}
+.img-3{
+    background: url(../img/geology.jpg);
+    background-size: cover;
+    min-height: 300px;
+    position: relative;
+}
+.img-4{
+    background: url(../img/human\ exploration.jpg);
+    background-size: contain;
+    min-height: 300px;
+    position: relative;
+    
+}
+
+
+.mars-2020{
+    background: url(../img/Mars\ 2020\ Perseverance\ Rover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    color:#000;
+    min-height: 400px;
+    border-right: 3px solid #fff;
+
+}
+
+.orange-background{
+    background: url(../img/orange-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    color:#000;
+    min-height: 400px;
+
+}
+.card-body{
+    opacity: 0.75;
+}
+
+
+#watch-live{
+    background-image: url(../img/spacex-Rocketlaunch.jpg);
+    background-size: cover;
+    min-height: 600px;
+}
+
+#preparation-header, #mars-rover-toolkit, #training{
+    border-bottom: 3px #000 solid;
+}
+#mars-rover-toolkit .card ,.card-header, .card-body{
+    max-width: 400px;
+    max-height:400px;
+}
+
+#mars-rover-toolkit{
+    
+}
+
+
+#mars-rover-toolkit {
+    border-right: 3px solid #000 ;
+    
+}
+
+.mars-2020-attachments{
+    background: url(../img/ROVER_Instrument_Labels.jpg);
+    background-size: cover;
+   
+    max-height:400px;
+
+}
+
+#myModal{
+    color: #000;
+}
+
+
+#main-footer{
+    background-color:#000;
+    color: #fff;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
