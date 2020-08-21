@@ -1,4 +1,5 @@
 
+/* MAIN PAGE */
 #main-header {
     background-image: url(../img/mars\ 2.jpg);
     background-attachment: fixed;
@@ -7,7 +8,7 @@
     position: relative;
     min-height: 800px;
 }
-
+/* COUNTER  */
 #demo{
     color: #fff;
     font-family: 'Roboto', sans-serif;
@@ -22,7 +23,7 @@
     min-height: 800px;
 }
 
-
+/* HEADER FOR THE MISSION PAGE*/
 .carousel-item{
     min-height: 400px;
 }
@@ -45,7 +46,7 @@
     background-size: cover;
 
 }
-
+/* THE MISSION SECONDARY HEADER */
 #four-goals-header{
     background: url(../img/orange-background.jpg);
     background-attachment: fixed;
@@ -57,6 +58,7 @@
     color: #fff;
     
 }
+/* THE MISSION FOUR GOALS IMAGES  */
 
 .img-1, .img-2, .img-3, .img-4{
     border-right: #000 3px solid;
@@ -87,7 +89,7 @@
     position: relative;
     
 }
-
+/* MARS ROVER 2020 IMAGE CARD */
 
 .mars-2020{
     background: url(../img/Mars\ 2020\ Perseverance\ Rover.jpg);
@@ -113,44 +115,38 @@
     opacity: 0.75;
 }
 
+/* THE MISSION WATCH LIVE */
 
 #watch-live{
     background-image: url(../img/spacex-Rocketlaunch.jpg);
     background-size: cover;
     min-height: 600px;
 }
+/* PREPARATION PAGE HEADER */
 
 #preparation-header, #mars-rover-toolkit, #training{
     border-bottom: 3px #000 solid;
 }
-#mars-rover-toolkit .card ,.card-header, .card-body{
-    max-width: 400px;
-    max-height:400px;
-}
 
-#mars-rover-toolkit{
-    
-}
-
-
-#mars-rover-toolkit {
-    border-right: 3px solid #000 ;
-    
-}
-
-.mars-2020-attachments{
-    background: url(../img/ROVER_Instrument_Labels.jpg);
-    background-size: cover;
-   
-    max-height:400px;
+/* MARS ROVER 2020 INFROMATION */
 
 }
 
+
+
+
+
+
+
+
+
+
+/* MODAL FOR MAIN PAGE */
 #myModal{
     color: #000;
 }
 
-
+/* FOOTER */
 #main-footer{
     background-color:#000;
     color: #fff;
