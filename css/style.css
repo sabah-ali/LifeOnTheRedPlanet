@@ -24,122 +24,43 @@
 }
 
 /* HEADER FOR THE MISSION PAGE*/
-.carousel-item{
-    min-height: 400px;
+#mission-section {
+    background-image: url(../img/mars-mission.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    height: 600px;
 }
 
-.carousel-image-1 {
-    background: url(../img/Astronaut.jpg);
-    background-size: cover;
-
-}
-
-.carousel-image-2 {
-    background: url(../img/Perseverance.png);
-    background-size: cover;
+#the-mission-phases {
+    background-image: url(../img/Astronaut.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
    
-
 }
 
-.carousel-image-3 {
-    background: url(../img/spacex-Rocketlaunch.jpg);
-    background-size: cover;
 
+.card-title {
+    border-bottom: 4px solid #ffa500;
 }
-/* THE MISSION SECONDARY HEADER */
-#four-goals-header{
-    background: url(../img/orange-background.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-    position: relative;
-}
-
-#four-goals{
-    color: #fff;
-    
-}
-/* THE MISSION FOUR GOALS IMAGES  */
-
-.img-1, .img-2, .img-3, .img-4{
-    border-right: #000 3px solid;
-}
-.img-1{
-    background: url(../img/life.jpg);
-    background-size: cover;
-    min-height: 300px;
-    position: relative;
-}
-
-.img-2{
-    background: url(../img/climate.jpg);
-    background-size: cover;
-    min-height: 300px;
-    position: relative;
-}
-.img-3{
-    background: url(../img/geology.jpg);
-    background-size: cover;
-    min-height: 300px;
-    position: relative;
-}
-.img-4{
-    background: url(../img/human\ exploration.jpg);
-    background-size: contain;
-    min-height: 300px;
-    position: relative;
-    
-}
-/* MARS ROVER 2020 IMAGE CARD */
-
-.mars-2020{
-    background: url(../img/Mars\ 2020\ Perseverance\ Rover.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-    color:#000;
-    min-height: 400px;
-    border-right: 3px solid #fff;
-
-}
-
-.orange-background{
-    background: url(../img/orange-background.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-    color:#000;
-    min-height: 400px;
-
-}
-.card-body{
-    opacity: 0.75;
-}
-
 /* THE MISSION WATCH LIVE */
 
-#watch-live{
+#watch-live {
     background-image: url(../img/spacex-Rocketlaunch.jpg);
     background-size: cover;
     min-height: 600px;
 }
-/* PREPARATION PAGE HEADER */
 
-#preparation-header, #mars-rover-toolkit, #training{
-    border-bottom: 3px #000 solid;
+
+#mars-booking {
+    background-image: url(../img/international-space-station-1176518_1280.jpg);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
 }
-
-/* MARS ROVER 2020 INFROMATION */
-
-}
-
-
-
-
-
-
-
-
-
 
 /* MODAL FOR MAIN PAGE */
 #myModal{

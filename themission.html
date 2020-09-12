@@ -30,9 +30,7 @@
         <li class="nav-item active">
           <a href="themission.html" class="nav-link"> The Mission</a>
         </li>
-        <li class="nav-item">
-          <a href="preparation.html" class="nav-link"> Preparation</a>
-        </li>
+        
         <li class="nav-item">
           <a href="launch.html" class="nav-link"> Launch</a>
         </li>
@@ -43,126 +41,106 @@
 
   <!--MAIN HEADER-->
   <section id="mission-section">
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators"> 
-     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-     <li data-target="#myCarousel" data-slide-to="1"></li>
-     <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner">
-     <div class="carousel-item carousel-image-1 active">
-       <div class="container">
-         <div class="carousel-caption  d-sm-block text-center mb-5">
-           <h1 class="display-3">The Four Goals Of The Mars Exploration Program</h1>
-           <a href="#four-goals-header" class="btn btn-outline-danger btn-lg">Learn More</a>
-         </div>
-       </div>
-     </div>
+  
+</section>
 
-     <div class="carousel-item carousel-image-2">
-       <div class="container">
-         <div class="carousel-caption  d-sm-block text-center mb-5">
-           <h1 class="display-3">Mars 2020 Perseverance Rover</h1>
-           <a href="#mars-rover" class="btn btn-outline-danger btn-lg">Learn More</a>
-         </div>
-       </div>
-     </div>
-
-     <div class="carousel-item carousel-image-3">
-       <div class="container">
-         <div class="carousel-caption  d-sm-block text-center mb-5">
-           <h1 class="display-3">Watch The Launch Live</h1>
-           <a href="#watch-live" class="btn btn-outline-danger btn-lg">Learn More</a>
-         </div>
-       </div>
-     </div>
-    <a  href="#myCarousel" data-slide="prev" class="carousel-control-prev">
-      <span class="carousel-control-prev-icon"></span>
-    </a>
-
-    <a  href="#myCarousel" data-slide="next" class="carousel-control-next">
-     <span class="carousel-control-next-icon"></span>
-   </a>
+<!--MARS EXPOLARTION HEADER  -->
+<section id="exploration-program-header">
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="text-center display-4 ">The Mars Exploration Program</h1>
+      <p class="text-center lead">Why Mars?</p>
+      <p class="lead">After the Earth, Mars is the most habitable planet in our solar system due to several reasons:
+        Its soil contains water to extract,There is enough sunlight to use solar panels, Gravity on Mars is 38% that of our Earth's, which is believed to be sufficient for the human body to adapt to. The day and nights are very similar to Earth's. A Mars day is 24 hours, 39 minutes and 35 seconds.</p> 
+    </div>
   </div>
 </section>
 
 
-    <section id="four-goals-header">
+
+<!--MARS EXPOLARTION BODY  -->
+<section id="exploration-body">
+  <div class="container">
+    <div class="row">
+      <h1 class=" display-4 text-center ml-4 pb-3"> Three Goals of The Mars Exploration Program </h1>
+      <div class="col-sm-4"> 
+        <img  class="img-fluid w-25 mx-auto d-block "src="./img/one.png" alt="number-2">
+        <p class="lead text-center">Is there life on Mars?</p>  
+      </div>
+      <div class="col-sm-4">
+        <img  class="img-fluid w-25 mx-auto d-block "src="./img/two.png" alt="number-2">
+        <p class="lead text-center">Understanding the Climate of Mars</p> 
+      </div>
+      <div class="col-sm-4">
+        <img  class="img-fluid w-25 mx-auto d-block"src="./img/three.png" alt="number-3">
+        <p class="lead text-center"> Preparing for Human Exploration</p>
+       </div>
+      
+    </div>
+  </div>
+</section>
+
+    <section id="the-mission-phases">
       <div class="container">
         <div class="row">
           <div class="col">
-            <h1 class="display-4 text-center">The Four Goals Of The Mars Exploration Program </h1>
+            <h1 class="display-4 text-center ">The Mission </h1>
           </div>
         </div>
-      </div>
+          <!--CARD 1  -->
+          <div class="card-deck pb-3">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title text-center">TRAINING</h5>
+                <p class="card-text">Astronauts will be put through there paces, with Mars atomsphere recreated on Earth for Astronauts to be prepared for any situation. </p>
+              </div>
+              <img src="./img/gym.png" class="card-img-top w-25 rounded mx-auto d-block" alt="dumbbell">
+              <div class="card-footer bg-danger">
+                <h1 class="text-center">PHASE 1</h1>
+              </div>
+            </div>
+                <!--CARD 2  -->
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title text-center">EARTH TO MARS TRAVEL</h5>
+                  <p class="card-text">Earth-Mars travel will last about 96 days, and in the worst case it will last 226 days. </p>
+                </div>
+                <img src="./img/space-shuttle.png" class="card-img-top w-25 rounded mx-auto d-block" alt="space craft">
+                <div class="card-footer bg-warning">
+                  <h1 class="text-center">PHASE 2</h1>
+                </div>
+              </div>
+                  <!--CARD 3  -->
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title text-center">COLINISATION</h5>
+                    <p class="card-text">The first goal is to establish a permanent colony on the soil of Mars. This colony will remain in constant contact with the Earth. Over time more will be built and eventuall humans will live on Mars.</p>
+                  </div>
+                  <img src="./img/planet.png" class="card-img-top w-25 rounded mx-auto d-block" alt="planet mars">
+                  <div class="card-footer bg-warning">
+                    <h1 class="text-center">PHASE 3</h1>
+                  </div>
+                </div>
+                </div> 
     </section>
 
-    <section id="four-goals">
-        <div class="row pl-1">
-          <div class="col-md-3 img-1">
-            <h1 class="pl-2">Was There Life on Mars</h1>
-            <p class="pl-2"> The idea that Mars and Earth may have been relatively similar worlds during their early histories,
-               and as life arose relatively early on the Earth, whether life ever arose on Mars is a key question.</p>
-          </div>
 
-          <div class="col-md-3 img-2">
-            <h1> Climate of Mars</h1>
-            <p>How the climate of Mars has evolved over time to reach the current state, the processes that have operated to produce this evolution, 
-              and whether the Martian atmosphere and climate reflect features that are universal to planetary atmospheres. </p>
-          </div>
 
-          <div class="col-md-3 img-3">
-            <h1>Geology Of Mars</h1>
-            <p>Insight into the composition, structure, and history of Mars as a planet, through deeper understanding of its surface and interior. 
-              The investigaton of Mars is a compelling scientific exploration in its own right, 
-              but the planet also might once have hosted potentially habitable, Earthlike environments.</p>
-          </div>
-
-          <div class="col-md-3 img-4">
-           <h1> Preparing For Human Exploration </h1>
-           <p>Obtain knowledge of Mars sufficient to design and implement 
-             <strong>a human mission to Mars/Martian surface orbit or either surface of Phobos or Deimos.</strong> </p>
-           <p>Obtain knowledge of Mars sufficient to design and implement <strong>sustained human presence at the Martian surface.</strong></p>
-
-          </div>
-        </div>
-    </section>
-
-    <section id="mars-rover">
-        <div class="row">
-         <div class="col-md-6 mars-2020">
-         </div>
-         <div class="col-md-6 orange-background">
-           <div class="card-transparent">
-             <div class="card-body">
-               <h4 class="card-title pl-3">Quick Facts </h4>
-               <ul class="list-group list-group-flush ">
-                <li class="list-group-item">Rover Name: Perseverance</li>
-                <li class="list-group-item">Main Job: The Perseverance rover will seek signs of ancient life and collect rock and soil samples for possible return to Earth.</li>
-                <li class="list-group-item">Launch Window: July 20 - Aug. 11, 2020</li>
-                <li class="list-group-item">Launch Location: Cape Canaveral Air Force Station, Florida</li>
-                <li class="list-group-item">Landing: Feb. 18, 2021</li>
-                <li class="list-group-item">Landing Site: Jezero Crater, Mars</li>
-                <li class="list-group-item">Mission Duration: At least one Mars year (about 687 Earth days)</li>
-              </ul>
-             </div>
-           </div>
-         </div>
-        </div>
-    </section>
-
-<!--WATCH LIVE SECTION-->
-<section id="watch-live">
+<section id="mars-booking">
   <div class="container">
     <div class="row">
-      <div class="col">
-        <h1 class="text-center pt-3">Watch The Mars Perseverance Launch Live</h1>
-        <iframe class="pt-3" width="100%" height="365" src="https://www.youtube.com/embed/yIWyFX0uxoc" 
-        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="col text-center pt-5">
+        <h1 class="display-4 text-center text-white ">The Next Step For Mankind Starts Right Here On Earth. </h1>
+        <div class="pt-5"></div>
+        <a class="btn btn-primary btn-lg" href="launch.html" role="button">Book your tickets to Mars</a> 
+      </div>
       </div>
     </div>
   </div>
 </section>
+
+
+
 
 
   <!--FOOTER-->
