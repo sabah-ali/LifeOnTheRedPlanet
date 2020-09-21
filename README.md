@@ -7,6 +7,6 @@ A website about Mars. Created using HTML/CSS and Bootstrap 4.
 <p>To install the lastest version of Bootstrap follow the link below</p>
 <p> https://getbootstrap.com </p>
 
-<h1> Live previw of life on the red planet website. </h1>
+<h1> Live preview of life on the red planet website. </h1>
 <p> https://lifeontheredplanet.netlify.app </p>
 
