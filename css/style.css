@@ -8,15 +8,8 @@
     position: relative;
     min-height: 800px;
 }
-/* COUNTER  */
-#demo{
-    color: #fff;
-    font-family: 'Roboto', sans-serif;
-    font-size: 76px;
-    padding-top: 250px;
-    border-bottom: #000 3px solid;
-    
-}
+
+
 
 .dark-overlay {
     background: rgba(0, 0, 0, 0.2);
@@ -53,7 +46,7 @@
     min-height: 600px;
 }
 
-
+/* Mars Booking page */
 #mars-booking {
     background-image: url(../img/international-space-station-1176518_1280.jpg);
     background-attachment: scroll;
